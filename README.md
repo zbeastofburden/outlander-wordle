@@ -2,7 +2,7 @@
 
 This is a clone project of the popular game for the TV series Outlander. Any length of word is accepted for more variability and a greater challenge. 
 
-[**(ALMOST) Live here!**](http://google.com/)
+[**Live here!**](https://outlanderwordle.com/)
 
 ## Build and run
 
