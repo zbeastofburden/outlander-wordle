@@ -9,7 +9,7 @@ This is a clone project of the popular game for the TV series Outlander. Any len
 Clone the repository and perform the following command line actions:
 
 ```cmd
-$> cd react-wordle-main
+$> cd outlander-wordle
 $> npm install
 $> npm run build
 $> npm start
