@@ -11,13 +11,11 @@ import {
   WORD_NOT_FOUND_MESSAGE,
   CORRECT_WORD_MESSAGE,
   HARD_MODE_ALERT_MESSAGE,
-  DISCOURAGE_INAPP_BROWSER_TEXT,
 } from './constants/strings'
 import {
   MAX_CHALLENGES,
   REVEAL_TIME_MS,
   WELCOME_INFO_MODAL_MS,
-  DISCOURAGE_INAPP_BROWSERS,
 } from './constants/settings'
 import {
   isWordInWordList,
@@ -102,14 +100,6 @@ function App() {
     }
   })
 
-  useEffect(() => {
-    DISCOURAGE_INAPP_BROWSERS &&
-      isInAppBrowser() &&
-      showErrorAlert(DISCOURAGE_INAPP_BROWSER_TEXT, {
-        persist: false,
-        durationMs: 7000,
-      })
-  }, [showErrorAlert])
 
   useEffect(() => {
     if (isDarkMode) {
