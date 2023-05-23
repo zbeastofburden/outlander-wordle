@@ -295,6 +295,11 @@ function App() {
         />
         <AlertContainer />
       </div>
+        <div className="flex items-center justify-center font-bold pb-6 cursor-pointer text-white hover:bg-slate-300">
+          <p>
+            <a href="https://outlandertiktok.com">SHOP OUTLANDERTIKTOK</a>
+          </p>
+        </div>   
     </div>
   )
 }
